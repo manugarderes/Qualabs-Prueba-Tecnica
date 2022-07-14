@@ -7,7 +7,7 @@ function BlackOut() {
       {show && (
         <div className="BlackOut">
           <h1 style={{ marginTop: "10px", textAlign: "center" }}>
-            QuaLabs - Prueba Técnica - Manuel Garderes
+            Qualabs - Prueba Técnica - Manuel Garderes
           </h1>
           <h3 style={{ marginTop: "10px", textAlign: "center" }}>
             Front End - React App
