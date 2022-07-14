@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+}
+
+.table {
+  border: 1px solid black;
+  min-height: 80vh;
+  padding-bottom: 10px;
+  width: 80vh;
+  border-radius: 10px;
+}
+
+.small {
+  min-height: 70vh;
+  width: 70vh;
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+}
+
+.nav {
+  background-color: rgb(185 177 177);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.nav button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(200, 128, 200);
+  border-radius: 10px;
+  cursor: pointer;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.nav button:hover {
+  background-color: rgb(115, 115, 187);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.selectedButton {
+  background-color: rgb(65, 65, 147) !important;
+  cursor: auto !important;
+}
+
+.users {
+  padding: 20px;
+}
+
+.users p {
+  margin: 5px;
+}
+
+.usersBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.usersBox button {
+  margin: 15px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(200, 128, 200);
+  border-radius: 10px;
+  color: white;
+  width: 100px;
+}
+
+.tools {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  display: flex;
+}
+
+.tools button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.tools button svg {
+  margin: 3px;
+}
+
+.dividerBox {
+  margin-top: 70px;
+}
+
+.BlackOut {
+  background-color: #000000e0;
+  color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.BlackOut button{
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+  border: 1px solid white;
+}
+
+.BlackOut button:hover{
+  background-color: transparent;
+  color: white;
 }

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "User 0",
+    "provider": {
+      "content_module": "authz.provider_4",
+      "auth_module": "authn.provider_3"
+    }
+  },
+  {
+    "name": "User 1",
+    "provider": {
+      "content_module": "authz.provider_4",
+      "auth_module": "authn.provider_2"
+    }
+  },
+  {
+    "name": "User 2",
+    "provider": {
+      "content_module": "authz.provider_3",
+      "auth_module": "authn.provider_4"
+    }
+  },
+  {
+    "name": "User 3",
+    "provider": {
+      "content_module": "authz.provider_3",
+      "auth_module": "authn.provider_1"
+    }
+  },
+  {
+    "name": "User 4",
+    "provider": {
+      "content_module": "authz.provider_1",
+      "auth_module": "authn.provider_1"
+    }
+  },
+  {
+    "name": "User 5",
+    "provider": {
+      "content_module": "authz.provider_3",
+      "auth_module": "authn.provider_4"
+    }
+  },
+  {
+    "name": "User 6",
+    "provider": {
+      "content_module": "authz.provider_4",
+      "auth_module": "authn.provider_2"
+    }
+  },
+  {
+    "name": "User 7",
+    "provider": {
+      "content_module": "authz.provider_4",
+      "auth_module": "authn.provider_3"
+    }
+  },
+  {
+    "name": "User 8",
+    "provider": {
+      "content_module": "authz.provider_2",
+      "auth_module": "authn.provider_2"
+    }
+  },
+  {
+    "name": "User 9",
+    "provider": {
+      "content_module": "authz.provider_2",
+      "auth_module": "authn.provider_4"
+    }
+  },
+  {
+    "name": "User 10",
+    "provider": {
+      "content_module": "authz.provider_3",
+      "auth_module": "authn.provider_2"
+    }
+  },
+  {
+    "name": "User 11",
+    "provider": {
+      "content_module": "authz.provider_3",
+      "auth_module": "authn.provider_3"
+    }
+  },
+  {
+    "name": "User 12",
+    "provider": {
+      "content_module": "authz.provider_4",
+      "auth_module": "authn.provider_3"
+    }
+  },
+  {
+    "name": "User 13",
+    "provider": {
+      "content_module": "authz.provider_2",
+      "auth_module": "authn.provider_2"
+    }
+  },
+  {
+    "name": "User 14",
+    "provider": {
+      "content_module": "authz.provider_1",
+      "auth_module": "authn.provider_2"
+    }
+  },
+  {
+    "name": "User 15",
+    "provider": {
+      "content_module": "authz.provider_2",
+      "auth_module": "authn.provider_3"
+    }
+  },
+  {
+    "name": "User 16",
+    "provider": {
+      "content_module": "authz.provider_2",
+      "auth_module": "authn.provider_2"
+    }
+  },
+  {
+    "name": "User 17",
+    "provider": {
+      "content_module": "authz.provider_2",
+      "auth_module": "authn.provider_1"
+    }
+  },
+  {
+    "name": "User 18",
+    "provider": {
+      "content_module": "authz.provider_3",
+      "auth_module": "authn.provider_2"
+    }
+  },
+  {
+    "name": "User 19",
+    "provider": {
+      "content_module": "authz.provider_4",
+      "auth_module": "authn.provider_1"
+    }
+  }
+]
