@@ -23,6 +23,9 @@ function BlackOut() {
             Los 4 botones de la parte inferior son solo visuales, no entran
             dentro de las funcionalidades de la aplicaión.
           </p>
+          <p style={{ marginTop: "10px", textAlign: "center" }}>
+            <a target={"_blank"} style={{color:"white"}} href="https://github.com/manugarderes/Qualabs-Prueba-Tecnica">Repositorio en GitHub</a>
+          </p>
           <button onClick={() => setShow(false)} style={{ marginTop: "30px" }}>
             Aceptar
           </button>
