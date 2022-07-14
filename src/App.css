@@ -15,16 +15,14 @@
 .table {
   border: 1px solid black;
   min-height: 80vh;
-  padding-bottom: 10px;
-  width: 80vh;
+  min-width: 80vh;
   border-radius: 10px;
 }
 
 .small {
   min-height: 70vh;
-  width: 70vh;
-  margin: auto;
-  margin-top: 10px;
+  min-width: 70vh;
+  margin: 20px;
   position: relative;
 }
 
